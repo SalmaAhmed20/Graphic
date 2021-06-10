@@ -1,0 +1,44 @@
+# depslib dependency file v1.0
+1623266971 source:d:\2nd term\computer grapic\project\main.cpp
+	"Windows.h"
+	<tchar.h>
+	<windows.h>
+	"lines.h"
+	"menuh.h"
+	"Circle.h"
+	"ellipse.h"
+	"Filling.h"
+	<vector>
+	"fstream"
+	"clipping.h"
+
+1623245232 d:\2nd term\computer grapic\project\windows.h
+
+1623243451 d:\2nd term\computer grapic\project\lines.h
+	"math.h"
+	<iostream>
+
+1623202586 d:\2nd term\computer grapic\project\menuh.h
+
+1623240447 d:\2nd term\computer grapic\project\circle.h
+	<math.h>
+	<windows.h>
+
+1623263328 d:\2nd term\computer grapic\project\ellipse.h
+	<cmath>
+	<iostream>
+
+1623242583 d:\2nd term\computer grapic\project\filling.h
+	<windows.h>
+
+1623240458 d:\2nd term\computer grapic\project\clipping.h
+	<vector>
+	"Rec.h"
+
+1560352830 d:\2nd term\computer grapic\project\include\rec.h
+	<tchar.h>
+	<windows.h>
+
+1623202592 source:d:\2nd term\computer grapic\project\menur.rc
+	"menuh.h"
+

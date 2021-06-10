@@ -1,0 +1,55 @@
+
+#include "menuh.h"
+ID MENU
+BEGIN
+    POPUP "&File"
+    BEGIN
+        MENUITEM "&Save",                       ID_SAVE
+        MENUITEM "&Load",                       ID_FILE_LOAD
+        MENUITEM "&Close",                      ID_EXIT
+    END
+    POPUP "&Line"
+    BEGIN
+        MENUITEM "&DDA",                        ID_DDA
+        MENUITEM "&MidPoint",                   ID_LMID
+        MENUITEM "&Parametric",                 ID_LPARA
+    END
+    POPUP "&Circle"
+    BEGIN
+        MENUITEM "&Direct",                     ID_DIRCT
+        MENUITEM "&Polar",                      ID_POLAR
+        MENUITEM "&IterativePolar",             ID_ITPOLAR
+        MENUITEM "&Midpoint",                   ID_CMID
+        MENUITEM "&ModifiedMidPoint",           ID_MCMID
+    END
+    POPUP "&Filling"
+    BEGIN
+        MENUITEM "&Quarter1",                   ID_Q1
+        MENUITEM "&Quarter2",                   ID_Q2
+        MENUITEM "&Quarter3",                   ID_Q3
+        MENUITEM "&Quarter4",                   ID_Q4
+    END
+    POPUP "&Ellipse"
+    BEGIN
+        MENUITEM "&Direct",                     ID_ELLISP_DIRECT
+        MENUITEM "&Polar",                      ID_ELLISP_POLAR
+    END
+    POPUP "&Clipping"
+    BEGIN
+        MENUITEM "&Point",                      ID_POINT
+        MENUITEM "Line",                        ID_LINE
+    END
+    POPUP "&Window"
+    BEGIN
+        MENUITEM "&Background",                 ID_WINDOW_BACKGROUND
+        MENUITEM "&Cursor",                     ID_WINDOW_CURSOR
+        MENUITEM "&Clear",                      ID_WINDOW_Clear
+    END
+    POPUP "&Color"
+    BEGIN
+        MENUITEM "&Red",                        ID_COLOR_RED
+        MENUITEM "&Blue",                       ID_COLOR_BLUE
+        MENUITEM "&Green",                      ID_COLOR_G
+    END
+END
+
