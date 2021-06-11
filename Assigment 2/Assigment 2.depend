@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1622812081 source:d:\2nd term\computer grapic\assignments\assigment 2\main.cpp
+	<tchar.h>
+	<windows.h>
+	<iostream>
+	<math.h>
+
